@@ -42,6 +42,17 @@ class Codememain extends StatelessWidget {
                 )
               ),
             ),
+
+            Container(
+              margin: EdgeInsets.only(top: 3),
+              width: 420,
+              height: 215,
+              decoration: BoxDecoration(
+                  image:DecorationImage(image: AssetImage("assets/girlimage.png"),
+                    fit: BoxFit.fill,
+                  )
+              ),
+            ),
           ],
         ),
       ),
